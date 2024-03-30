@@ -1,0 +1,88 @@
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 1300px;
+}
+
+
+header{
+    background-color:#76939D ;
+    height: 80px;
+    width: 100%;
+    position :fixed;
+}
+main{
+    margin-top: 80px;
+    height: 1100px;
+    background-image: url(/styles/background.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+
+main .container{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    font-size: 30px;
+}
+
+.container h3{
+    color: #F00F0F;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color: #555555;
+    text-align: center;
+    color: white;
+}
+
+
+.container-telur{
+    height: 1000px;
+    margin-left: 140px;
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    position: fixed;
+}
+.telur{
+    margin-top: 100px;
+    width: 50px;
+    height: 60px;
+    background-color: red;
+    cursor: pointer;
+}
+
+.tdua{
+    margin-left: -100px;
+}
+
+.ttiga{
+    margin-left: -100px;
+}
+
+.container-telur2{
+    margin-left: 60px;
+    margin-top: 390px;
+    display: flex;
+    gap: 240px;
+}
+
+.tenam{
+    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.blur {
+    filter: blur(3px); 
+}

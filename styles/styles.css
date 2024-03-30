@@ -58,7 +58,6 @@ footer{
     margin-top: 100px;
     width: 50px;
     height: 60px;
-    background-color: red;
     cursor: pointer;
 }
 
@@ -85,4 +84,14 @@ footer{
 
 .blur {
     filter: blur(3px); 
+}
+
+@media screen and (max-width: 1200px) 
+{
+
+
+
+
+
+
 }

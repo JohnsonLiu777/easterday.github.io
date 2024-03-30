@@ -18,7 +18,7 @@ header{
 main{
     margin-top: 80px;
     height: 1100px;
-    background-image: url(/styles/background.jpg);
+    background-image: url(background.jpg);
     background-repeat:no-repeat ;
     background-position: center;
     background-attachment: fixed;
